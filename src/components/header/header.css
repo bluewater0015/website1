@@ -1,0 +1,38 @@
+
+.header_container {
+	width: 100%;
+	background: #fee200;
+	padding: 0.19rem 1.5rem;
+	box-sizing: border-box;
+}
+.header_container .header_logo{
+	width: 1.68rem;
+	height: 0.42rem;
+}
+.header_nav .nav_list {
+	padding: 0 0.4rem;
+
+}
+.nav_list .nav_item {
+	padding: 0 0.4rem;
+}
+.nav_item .default_style{
+	color: #26cad3;
+}
+.nav_item a{
+	color: #000;
+}
+.active {
+	height: 3px;
+	margin-top: 8px;
+	background: #26cad3;
+}
+.nav_item a:hover {
+	color: #26cad3;
+}
+.nav_item:hover {
+	cursor: pointer;
+}
+
+
+
