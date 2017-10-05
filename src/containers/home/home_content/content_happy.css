@@ -1,0 +1,28 @@
+
+.happy_container {
+	width: 100%;
+	height: auto;
+	padding-top: 0.8rem;
+	box-sizing: border-box;
+	background: #fee200;
+}
+.happy_content .minute_happy {
+	font-size: 0.4rem;
+}
+.happy_content .amusement_taste {
+	margin-top: 0.3rem;
+}
+.happy_content .young_style {
+	margin-top: 0.1rem;
+}
+.happy_container .img_container {
+	margin-top: 0.6rem;
+}
+.img_container .happy_img {
+	width: 6.25rem;
+	height: 4.1rem;
+}
+.img_container .happy_img img {
+	width: 100%;
+	height: 100%;
+}

@@ -2,11 +2,32 @@
 .header_container {
 	width: 100%;
 	background: #fee200;
-	padding: 0.19rem 1.5rem;
+	padding: 0.19rem 10%;
+	box-sizing: border-box;
+	position: relative;
+}
+.iconModel {
+	position: absolute;
+	top: 0.8rem;
+	left: 5%;
+	width: 90%;
+	height: 1rem;
+	opacity: 0.8;
+	background: #fff;
 	box-sizing: border-box;
 }
+.iconModel_list .iconModel_item{
+	height: 0.2rem;
+	margin: 0.1rem;
+	color: #26cad3;
+}
 .header_container .header_logo{
-	width: 1.68rem;
+
+	height: 0.42rem;
+}
+
+.header_logo img {
+	width: 1.13rem;
 	height: 0.42rem;
 }
 .header_nav .nav_list {
@@ -33,6 +54,36 @@
 .nav_item:hover {
 	cursor: pointer;
 }
+
+.header_icon {
+	height: 40px;
+}
+.header_icon .icon{
+	width: 50px;
+	height: 5px;
+	margin-bottom: 5px;
+	background: #fff;
+}
+/* 移动端 */
+[ className*="col-"] {
+	width: 100%;
+}
+/*大于768 按照这个比例显示 也就是在PC端上按照这个比例显示*/
+@media only screen and ( min-width: 768px ){
+	.col-1 { width: 8.33%; }
+	.col-2 { width: 16.66%; }
+	.col-3 { width: 25%; }
+	.col-4 { width: 33.33%; }
+	.col-5 { width: 41.66%; }
+	.col-6 { width: 50%; }
+	.col-7 { width: 58.33%; }
+	.col-8 { width: 66.66%; }
+	.col-9 { width: 75%; }
+	.col-10 { width: 83.33%; }
+	.col-11 { width: 91.66%; }
+	.col-12 { width: 100%; }
+}
+
 
 
 
