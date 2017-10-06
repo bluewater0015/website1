@@ -1,0 +1,95 @@
+.style_container {
+	width: 100%;
+	//height: 10rem;
+	background: #fff;
+}
+.style_container .style_list {
+	width: 9.12rem;
+	//height: 2.35rem;
+}
+.style_list .style_item {
+	height: 6.75rem;
+}
+.style_list .style_border {
+	border-bottom: 0.01rem solid #ccc;
+}
+.style_list li {
+	float: left;
+	//margin: 0 0.53rem;
+}
+.style_list li .style_content {
+	width: 4.56rem;
+	height: 4.7rem;
+}
+.style_list li .img_style{
+	
+}
+.style_list li .img_style img {
+	width: 2.44rem;
+	height: 2.44rem;
+}
+.style_list .text_style {
+	margin-top: 1rem;
+}
+.style_list .text_top {
+	margin-top: 0.24rem;
+}
+.style_list .text_font {
+	font-size: 0.4rem;
+}
+
+/* 移动端 */
+[ class*="col-"] {
+	width: 100%;
+}
+/*大于768 按照这个比例显示 也就是在PC端上按照这个比例显示*/
+@media only screen and ( min-width: 768px ){
+	.col-1 { width: 8.33%; }
+	.col-2 { width: 16.66%; }
+	.col-3 { width: 25%; }
+	.col-4 { width: 33.33%; }
+	.col-5 { width: 41.66%; }
+	.col-6 { width: 50%; }
+	.col-7 { width: 58.33%; }
+	.col-8 { width: 66.66%; }
+	.col-9 { width: 75%; }
+	.col-10 { width: 83.33%; }
+	.col-11 { width: 91.66%; }
+	.col-12 { width: 100%; }
+
+	.style_list .style_item {
+		height: 6.75rem;
+		border-bottom: none;
+	}
+	.style_list li {
+		float: left;
+		//margin: 0 0.53rem;
+	}
+	.style_list li .style_content {
+		width: 2.28rem;
+		height: 2.35rem;
+
+	}
+	.style_list li .img_style{
+		
+	}
+	.style_list li .img_style img {
+		width: 1.22rem;
+		height: 1.22rem;
+	}
+	.style_list .text_style {
+		margin-top: 0.5rem;
+	}
+	.style_list .text_top {
+		margin-top: 0.12rem;
+	}
+	.style_list .text_font {
+		font-size: 0.2rem;
+	}
+}
+
+
+
+
+
+

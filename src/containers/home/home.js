@@ -4,6 +4,7 @@ import React,{ Component } from 'react';
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import ContentHappy from './home_content/content_happy';
+import ContentStyle from './home_content/content_style';
 class Home extends Component {
 	constructor(props){
 		super(props);
@@ -13,6 +14,7 @@ class Home extends Component {
 			<div className="home_container">
 				<Header />
 				<ContentHappy />
+				<ContentStyle />
 				<Footer />
 			</div>
 		)

@@ -88,7 +88,6 @@ class Header extends Component{
 					<p className="icon"></p>
 					<p className="icon"></p>
 					<p className="icon"></p>
-					<p className="icon"></p>
 				</div>
 			</div>
 		)
