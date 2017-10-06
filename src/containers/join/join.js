@@ -1,11 +1,16 @@
 
 import React,{ Component } from 'react';
+import Header from '../../components/header/header';
+import Footer from '../../components/footer/footer';
+import JoinPartner from './join_form/join_partner';
 
 class Join extends Component {
 	render(){
 		return(
-			<div>
-				我是加入页面
+			<div className="join_container">
+				<Header />
+				<JoinPartner />
+				<Footer />
 			</div>
 		)
 	}
