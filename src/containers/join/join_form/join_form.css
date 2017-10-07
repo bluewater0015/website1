@@ -1,0 +1,106 @@
+
+/* 移动端 */
+[ class*="col-"] {
+	width: 100%;
+}
+.form_container {
+	width: 100%;
+	padding: 0 5%;
+	box-sizing: border-box;
+}
+.form_container .form {
+	
+}
+.form .form_content {
+	height: 0.6rem;
+	background: #f99;
+}
+.form .form_tips {
+	height: 0.6rem;
+	background: #9ff;
+	
+}
+/*大于768 按照这个比例显示 也就是在PC端上按照这个比例显示*/
+@media only screen and ( min-width: 768px ){
+	.col-1 { width: 8.33%; }
+	.col-2 { width: 16.66%; }
+	.col-3 { width: 25%; }
+	.col-4 { width: 33.33%; }
+	.col-5 { width: 41.66%; }
+	.col-6 { width: 50%; }
+	.col-7 { width: 58.33%; }
+	.col-8 { width: 66.66%; }
+	.col-9 { width: 75%; }
+	.col-10 { width: 83.33%; }
+	.col-11 { width: 91.66%; }
+	.col-12 { width: 100%; }
+	/*公共样式*/
+
+	/*普通样式*/
+	.form_container {
+		padding: 0.56rem 3rem 1.2rem 4rem;
+		width: 100%;
+		height: 7.7rem;
+		box-sizing: border-box;
+	}
+	.form_container .form {
+		width: 7.4rem;
+		height: 0.5rem;
+		position: relative;
+	}
+	.form .form_content {
+		height: 0.5rem;
+		background: #f99;
+		float: left;
+	}
+	.form .form_tips {
+		height: 0.5rem;
+		background: #9ff;
+		position: absolute;
+		left: 75%;
+		float: left;
+		visibility: hidden;
+	}
+	.content {
+
+	}
+	.content .star_box {
+		width: 0.12rem;
+		height: 0.5rem;
+	}
+	.content .name_box {
+		width: 0.48rem;
+		//box-sizing: border-box;
+	}
+	.name_box .name {
+		width: 0.48rem;
+		height: 0.5rem;
+		line-height: 0.5rem;
+		//box-sizing: border-box;
+		text-align: justify;
+	}
+	.name_box .name:after {
+	    content: '';
+		width: 0.48rem;
+		display: inline-block;
+		text-align: justify;
+	}
+	.sign_box {
+		width: 0.2rem;
+		height: 0.5rem;
+	}
+	.content .username_box {
+		height: 0.5rem;
+	}
+	.username_box .username {
+		width: 4.71rem;
+	}
+	.username {
+		box-sizing: border-box;
+		padding: 0.075rem 0 0.075rem 0.1rem;
+	}
+
+}
+
+
+
