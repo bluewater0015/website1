@@ -78,8 +78,21 @@ img{
 .margin-top {
 	margin-top: 0.3rem;
 }
+/*表单中*/
+.margin-top34 {
+	margin-top: 0.34rem;
+}
+.margin-top58 {
+	margin-top: 0.58rem;
+}
+.margin-right15 {
+	margin-right: 0.15rem;
+}
 .margin-bottom {
 	margin-bottom: 0.5rem;
+}
+.margin-bottom119 {
+	margin-bottom: 1.19rem;
 }
 /*空两格*/
 .text-indent {

@@ -1,24 +1,121 @@
-
-/* 移动端 */
-[ class*="col-"] {
-	width: 100%;
-}
-.form_container {
-	width: 100%;
-	padding: 0 5%;
-	box-sizing: border-box;
-}
-.form_container .form {
-	
-}
-.form .form_content {
-	height: 0.6rem;
-	background: #f99;
-}
-.form .form_tips {
-	height: 0.6rem;
-	background: #9ff;
-	
+/*移动端*/
+@media only screen and ( max-width: 768px ){
+	[ class*="col-"] {
+		width: 100%;
+	}
+	.form_container {
+		width: 100%;
+		padding: 0 0.45rem;
+		box-sizing: border-box;
+	}
+	.form_container .form {
+		margin-top: 0.5rem;
+		height: 0.5rem;
+	}
+	.form .form_content {
+		height: 0.9rem;
+		//background: #f99;
+		border: 1px solid #ccc;
+	}
+	.form_content .content {
+		height: 0.9rem;
+	}
+	.content .star_box {
+		width: 0.24rem;
+		height: 0.9rem;
+	}
+	.name_box .name {
+		width: 1rem;
+		height: 0.5rem;
+		line-height: 0.5rem;
+		//box-sizing: border-box;
+		text-align: justify;
+		font-size: 0.24rem;
+		color: #737373;
+	}
+	.name_box .name:after {
+	    content: '';
+		width: 1.2rem;
+		display: inline-block;
+		text-align: justify;
+	}
+	.sign_box {
+		width: 0.2rem;
+		height: 0.9rem;
+	}
+	.remark_sign {
+		height: 0.5rem;
+	}
+	input {
+		width: 90%;
+	}
+	.form .form_tips {
+		height: 0.9rem;
+	}
+	.form_tips .img_tips {
+		margin-left: 2rem;
+		width: 0.22rem;
+		height: 0.22rem;
+		
+	}
+	.img_tips img { 
+		width: 100%;
+		height: 100%;
+	}
+	.form_tips .name_tips {
+		margin-left: 0.1rem;
+		font-size: 0.14rem;
+		color: #FB4C4C;
+	}
+	.content .username_box {
+		//border: 1px solid #ccc;
+	}
+	/*省和市*/
+	.select_province {
+		padding: 0 0.1rem;
+	}
+	.select_city {
+		padding: 0 0.1rem;
+	}
+	.select {
+		width: 100%;
+		height: 0.86rem;
+		color: #666;
+		box-sizing: border-box;
+	}
+	/*评论*/
+	.form_mark {
+		height: 1.68rem !important;
+	}
+	.mark_content {
+		height: 1.68rem !important;
+	}
+	.form_mark .content {
+		height: 1.68rem !important;
+	}
+	.remark_box {
+		height: 0.5rem;
+	}
+	.textarea_box {
+		display: inline-block;
+	}
+	.textarea_box textarea {
+		width: 100%;
+		height: 1.68rem;
+		box-sizing: border-box;
+		padding-top: 0.16rem;
+	}
+	/*提交*/
+	.submit_box {
+		margin-bottom: 1.13rem;
+	}
+	.submit {
+		width: 100%;
+		height: 0.9rem;
+		background: #ffd801;
+		border-radius: 0.05rem;
+		color: #fff;
+	}
 }
 /*大于768 按照这个比例显示 也就是在PC端上按照这个比例显示*/
 @media only screen and ( min-width: 768px ){
@@ -40,7 +137,7 @@
 	.form_container {
 		padding: 0.56rem 3rem 1.2rem 4rem;
 		width: 100%;
-		height: 7.7rem;
+		//height: 7.7rem;
 		box-sizing: border-box;
 	}
 	.form_container .form {
@@ -50,17 +147,9 @@
 	}
 	.form .form_content {
 		height: 0.5rem;
-		background: #f99;
 		float: left;
 	}
-	.form .form_tips {
-		height: 0.5rem;
-		background: #9ff;
-		position: absolute;
-		left: 75%;
-		float: left;
-		visibility: hidden;
-	}
+	
 	.content {
 
 	}
@@ -70,6 +159,7 @@
 	}
 	.content .name_box {
 		width: 0.48rem;
+		height: 0.5rem;
 		//box-sizing: border-box;
 	}
 	.name_box .name {
@@ -90,7 +180,8 @@
 		height: 0.5rem;
 	}
 	.content .username_box {
-		height: 0.5rem;
+		height: 0.48rem;
+		border: 1px solid #ccc;
 	}
 	.username_box .username {
 		width: 4.71rem;
@@ -100,6 +191,74 @@
 		padding: 0.075rem 0 0.075rem 0.1rem;
 	}
 
+	.form .form_tips {
+		height: 0.5rem;
+		position: absolute;
+		left: 75%;
+		float: left;
+		// visibility: hidden;
+	}
+	.form_tips .img_tips {
+		margin-left: 0.2rem;
+		width: 0.22rem;
+		height: 0.22rem;
+	}
+	.form_tips .name_tips {
+		margin-left: 0.1rem;
+		font-size: 0.14rem;
+		color: #999;
+	}
+
+	/*选择省和市*/
+	.province_city {
+
+	}
+
+
+	.select_province {
+		padding: 0 0.1rem;
+		border: 1px solid #ccc;
+	}
+	.select_city {
+		padding: 0 0.1rem;
+		border: 1px solid #ccc;
+	}
+	.select {
+		width: 100%;
+		height: 0.48rem;
+		color: #666;
+		box-sizing: border-box;
+	}
+
+	.province {
+
+	}
+
+	/*评论*/
+	.form_mark {
+		height: 1.68rem !important;
+	}
+	.textarea_box {
+		display: inline-block;
+	}
+	.textarea_box textarea {
+		width: 100%;
+		height: 1.68rem;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+		padding-top: 0.16rem;
+	}
+	/*提交*/
+	.submit_box {
+		
+	}
+	.submit {
+		width: 2.9rem;
+		height: 0.6rem;
+		background: #ffd801;
+		border-radius: 0.05rem;
+		color: #fff;
+	}
 }
 
 
